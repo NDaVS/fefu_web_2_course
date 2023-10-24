@@ -1,25 +1,30 @@
-body{
+body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .container {
     margin: 0 166px;
 }
+
 .header {
     background-image: url("img/bg.webp");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header_line{
+
+.header_line {
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.logo{
+
+.logo {
     border-radius: 50%;
 }
+
 .nave_item {
     color: #fff;
     text-decoration: none;
@@ -28,32 +33,38 @@ body{
     margin-right: 35px;
     transition: color 0.3s linear;
 }
-.nave_item:hover{
+
+.nave_item:hover {
     color: #37c9ff
 }
 
-.num{
+.num {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s linear;
 
 }
-.num:hover{
+
+.num:hover {
     color: #37c9ff
 }
-.phone_holder{
+
+.phone_holder {
     display: flex;
     align-items: center;
 }
-.tg_id{
+
+.tg_id {
     padding-left: 5px;
 }
-.tg{
+
+.tg {
     border-left: 2px solid #ffffff;
     padding-left: 10px;
 }
-.button{
+
+.button {
     background-color: #ff7400;
     color: white;
     text-decoration: none;
@@ -62,13 +73,16 @@ body{
     transition: background-color 0.2s linear;
 
 }
-.button:hover{
+
+.button:hover {
     background-color: #b96702;
 }
-.header_down{
+
+.header_down {
 
 }
-.header_title{
+
+.header_title {
     color: #e4f8fa;
     font-family: 'Space Mono', monospace;
     font-weight: 400;
@@ -80,6 +94,111 @@ body{
     padding: 15px;
     border-radius: 35px;
 }
-.header_subtitle{
+
+.header_subtitle {
     font-size: 70px;
+}
+
+.card {
+    background-color: #afc7c9;
+    width: 349px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-top: -100px;
+    padding: 10px 10px;
+}
+
+.cards_holder {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card_image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 15px;
+}
+
+.card_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.card_desc {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.history{
+    margin-top: 140px;
+}
+
+.history_title {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 60px;
+    width: 444px;
+    text-align: center;
+}
+
+.history_desc {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    width: 444px;
+    text-align: center;
+}
+
+
+
+.history_number{
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.history_item{
+    text-align: center;
+    font-size: 40px;
+}
+
+.history_number span{
+    display: block;
+    font-size: 24px;
+}
+
+.history_holder{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+.history_images{
+    position: relative;
+}
+.images_1{
+    position: absolute;
+    z-index: 999;
+    top: 109px;
+    left: -585px;
+}
+.images_2{
+    position: absolute;
+    z-index: 1;
+    top: 37px;
+    left: -403px;
+}
+.images_3{
+    position: absolute;
+    z-index: 0;
+    top: 227px;
+    left: -334px;
 }
