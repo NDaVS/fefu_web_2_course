@@ -10,10 +10,15 @@
           rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="assets/js/image_changer.js"></script>
+
     <title>Space kot</title>
 </head>
 <body>
-<div class='header'>
+<div id="C1"class='header'>
     <div class="container">
         <div class='header_line'>
             <div class="header_logo">
@@ -21,10 +26,10 @@
             </div>
 
             <div class="nave">
-                <a class="nave_item" href="#">Главная</a>
-                <a class="nave_item" href="#">История</a>
-                <a class="nave_item" href="#">Изображения</a>
-                <a class="nave_item" href="#">О нас</a>
+                <a class="nave_item" href="#C1">Главная</a>
+                <a class="nave_item" href="#C2">История</a>
+                <a class="nave_item" href="#C3">Изображения</a>
+                <a class="nave_item" href="#footer">О нас</a>
             </div>
             <div class="tg">
                 <div class="phone_holder">
@@ -90,7 +95,7 @@
 
 </div>
 
-<div class="history">
+<div id="C2" class="history">
     <div class="container">
         <div class="history_holder">
             <div class="history_info">
@@ -112,7 +117,7 @@
                     </div>
 
                 </div>
-    
+
             </div>
             <div class="history_images">
                 <img class="images_1" src="img/mars_1.jpg" alt="">
@@ -125,5 +130,50 @@
 
 </div>
 
+<!--нужно написать slick-slider-->
+
+<footer class="footer" id="footer">
+    <div class="footer_container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>smth</h4>
+                <ul>
+                    <li><a href="#">lorem ipsum</a></li>
+                    <li><a href="#">lorem ipsum</a></li>
+                    <li><a href="#">lorem ipsum</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social_links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://vk.com/feed"><i class="fab fa-vk"></i></a>
+                    <a href="https://github.com/NDaVS/fefu_web_2_course/tree/SecondLab"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/Lunk_bot"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
 </body>
 </html>

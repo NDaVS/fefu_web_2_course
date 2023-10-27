@@ -138,8 +138,8 @@ body {
     font-size: 26px;
 }
 
-.history{
-    margin-top: 140px;
+.history {
+    padding-top: 140px;
 }
 
 .history_title {
@@ -159,46 +159,141 @@ body {
 }
 
 
-
-.history_number{
+.history_number {
     width: 444px;
     justify-content: center;
     margin-top: 40px;
 }
 
-.history_item{
+.history_item {
     text-align: center;
     font-size: 40px;
 }
 
-.history_number span{
+.history_number span {
     display: block;
     font-size: 24px;
 }
 
-.history_holder{
+.history_holder {
     display: flex;
     justify-content: space-between;
     padding-bottom: 150px;
 }
-.history_images{
+
+.history_images {
     position: relative;
 }
-.images_1{
+
+.images_1 {
     position: absolute;
     z-index: 999;
     top: 109px;
     left: -585px;
 }
-.images_2{
+
+.images_2 {
     position: absolute;
     z-index: 1;
     top: 37px;
     left: -403px;
 }
-.images_3{
+
+.images_3 {
     position: absolute;
     z-index: 0;
     top: 227px;
     left: -334px;
 }
+.footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer_container {
+    max-width: 1270px;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    margin-top: 200px;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 24%;
+    padding: 0 6px;
+
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #2995c7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+
+}
+.footer-col ul li:not(:last-child){
+
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social_links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.footer-col .social_links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
