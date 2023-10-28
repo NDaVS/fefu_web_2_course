@@ -9,6 +9,7 @@ body {
 
 .header {
     background-image: url("img/bg.webp");
+    background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,17 +102,19 @@ body {
 
 .card {
     background-color: #afc7c9;
-    width: 349px;
-    margin-left: 35px;
-    margin-right: 35px;
+    max-width: 300px;
     box-shadow: 10px 10px 40px 20px #0000001A;
-    margin-top: -100px;
-    padding: 10px 10px;
+
+    padding: 20px;
+    transition: all 0.3s ease;
 }
 
+
 .cards_holder {
+    padding:0 100px;
+    margin-top: -100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -205,6 +208,10 @@ body {
     top: 227px;
     left: -334px;
 }
+
+/*click-slider*/
+
+/*footer*/
 .footer{
     margin: 0;
     padding: 0;
